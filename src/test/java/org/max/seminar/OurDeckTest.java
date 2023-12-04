@@ -31,6 +31,7 @@ public class OurDeckTest {
         Assertions.assertThrows(DeckEmptyException.class, deck::getCard);
     }
 
+    //Тест
     @Test
    void testGetCardFullDeck() throws DeckEmptyException {
         //Given
