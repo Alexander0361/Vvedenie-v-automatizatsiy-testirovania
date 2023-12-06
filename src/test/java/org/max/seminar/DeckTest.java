@@ -21,7 +21,7 @@ public class DeckTest {
 
     @BeforeEach
     void createNewDeck () {
-        deck = new Deck(deckService.getNewDeck().getCards());
+        deck = deckService.getNewDeck();
     }
 
     @Test

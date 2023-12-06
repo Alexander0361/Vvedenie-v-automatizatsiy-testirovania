@@ -40,7 +40,9 @@ public class DeckServiceTest {
 
     private boolean checkToDeck(Deck deck, ArrayList<Card> cardsToCopy) {
         for (int i = 0; i < 52; i++) {
-            if(deck.getCards().get(i) != cardsToCopy.get(i)) return false;
+            if(deck.getCards().get(i) != cardsToCopy.get(i)) {
+                return false;
+            }
         }
 
         return true;

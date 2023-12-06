@@ -14,4 +14,6 @@ public class Door {
     public boolean isPrize() {
         return isPrize;
     }
+
+
 }
