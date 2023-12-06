@@ -11,6 +11,7 @@ public class MyGameTest {
     Game game;
 
     @BeforeEach
+    //на самом деле тут можно использоваь @BeforeAll, т.к. doors не меняется в течение всех тестов.
     void initDoors() {
         doors = new ArrayList<>();
         doors.add(new Door(false));
